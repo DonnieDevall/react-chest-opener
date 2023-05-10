@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-chest-opener/static/css/main.c3948a1f.css",
+    "main.css": "/react-chest-opener/static/css/main.62c169b2.css",
     "main.js": "/react-chest-opener/static/js/main.505a1e83.js",
     "static/js/787.e79f729a.chunk.js": "/react-chest-opener/static/js/787.e79f729a.chunk.js",
     "static/media/wow-treasure-chest-2.png": "/react-chest-opener/static/media/wow-treasure-chest-2.c4fabd01b0bf0e9ed07a.png",
     "index.html": "/react-chest-opener/index.html",
-    "main.c3948a1f.css.map": "/react-chest-opener/static/css/main.c3948a1f.css.map",
+    "main.62c169b2.css.map": "/react-chest-opener/static/css/main.62c169b2.css.map",
     "main.505a1e83.js.map": "/react-chest-opener/static/js/main.505a1e83.js.map",
     "787.e79f729a.chunk.js.map": "/react-chest-opener/static/js/787.e79f729a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3948a1f.css",
+    "static/css/main.62c169b2.css",
     "static/js/main.505a1e83.js"
   ]
 }
