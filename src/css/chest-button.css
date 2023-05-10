@@ -9,3 +9,9 @@
     box-shadow: 0 0 10px 5px gold;
     border-radius: 2%;
 }
+
+@media screen and (max-width: 600px) {
+    .treasure-chest {
+        width: 65%;
+    }
+}
