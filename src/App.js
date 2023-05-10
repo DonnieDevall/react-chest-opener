@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ChestButton from './components/ChestButton';
+import RewardsContainer from './components/RewardsContainer';
+
 
 function App() {
+
+  const [viewRewards, reroll] = React.useState();
+
+  function handleClick() {
+    reroll(<RewardsContainer />);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Open your chest and see what you got!</h1>
+      <ChestButton onClick={handleClick}/>
+      {viewRewards}
+      <p className='footer'>Made by Donnie D.</p>
     </div>
   );
 }

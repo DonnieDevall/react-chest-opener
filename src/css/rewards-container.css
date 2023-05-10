@@ -1,0 +1,54 @@
+h2 {
+    color: gold;
+}
+
+.rewards-container {
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 3px;
+    border: 1px solid gold;
+}
+
+/* Rarity Colors */
+
+.Legendary {
+    color: orange;
+}
+
+.Epic {
+    color: rgb(137, 7, 243);
+}
+
+.Rare {
+    color: rgb(57, 105, 235);
+}
+
+.Uncommon {
+    color: rgb(7, 173, 7);
+}
+
+.Common {
+    color: white;
+}
+
+/* Item Styles */
+
+p {
+    font-size: 1.5rem;
+}
+
+.main-item:hover {
+    cursor: pointer;
+}
+
+.item-stats {
+    display: fixed;
+}
+
+/* Item Box Separation */
+.item-box {
+    background-color: rgba(0, 0, 0, 0.644);
+    border: 1px solid gold;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
